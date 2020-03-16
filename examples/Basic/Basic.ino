@@ -10,7 +10,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println(F("WiFiMQTTManager Basic Example"));
   // set debug to true to get verbose logging
-  // wm.wm.setDebugOutput(true);
+  // wmm.setDebugOutput(true);
   // most likely need to format FS but only on first use
   // wmm.formatFS = true;
   // optional - define the function that will subscribe to topics if needed
